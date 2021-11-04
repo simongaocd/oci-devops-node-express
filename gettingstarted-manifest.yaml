@@ -21,7 +21,7 @@ spec:
       containers:
         - name: node-gettingstarted
           # enter the path to your image, be sure to include the correct region prefix
-          image: iad.ocir.io/odx-pipelines/js-test/node-express-getting-started:${BUILDRUN_HASH}
+          image: syd.ocir.io/ocichina001/node-express-getting-started:${BUILDRUN_HASH}
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
